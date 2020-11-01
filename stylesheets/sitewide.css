@@ -1,0 +1,20 @@
+body{
+    background: url('https://cdn.discordapp.com/attachments/766388924104835092/772590515568771142/postbackground-template.png') repeat center center fixed;
+    padding-top: 70px;
+}
+
+.navbar{
+    text-align:center;
+}
+
+nav{
+    background-color: firebrick;
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.nav-link{
+    color: yellow;
+}
