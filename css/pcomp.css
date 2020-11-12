@@ -5,4 +5,9 @@
  */
 body {
   padding-top: 56px;
+  background-image: url('https://i.imgur.com/geBgP9q.png');
+}
+
+footer, nav{
+  background-color: rgb(114, 12, 12);
 }
