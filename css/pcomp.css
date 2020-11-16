@@ -33,6 +33,17 @@ footer, nav{
   padding: 0
 }
 
+#credits{
+  text-align: center;
+}
+
+#creditstext{
+  color: rgb(133, 130, 130);
+  margin-top: 2px;
+  margin-bottom: 0px;
+  font-size: 9pt;
+}
+
 .sm-buttons{
   text-align: center;
 }
