@@ -9,6 +9,14 @@ body {
   background-repeat: repeat;
 }
 
+#photoalign{
+  text-align: center;
+}
+
+.img-thumbnail {
+  width: 80%; 
+}
+
 footer, nav{
   background-color: rgb(114, 12, 12);
 }
