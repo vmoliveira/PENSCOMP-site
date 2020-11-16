@@ -26,3 +26,43 @@ footer, nav{
 .fb-page span iframe[style] { 
     width: 100% !important; 
 }
+
+.btn.btn-social-icon {
+  width: 40px;
+  height: 40px;
+  padding: 0
+}
+
+.sm-buttons{
+  text-align: center;
+}
+
+.sociala{
+  margin-right: 0.3rem !important
+}
+
+.btn.btn-rounded {
+  border-radius: 50px
+}
+
+.btn-facebook {
+  background: #3b579d;
+  color: #ffffff
+}
+
+.btn-instagram {
+  background: #bb03e9;
+  color: #ffffff
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+  background: #2d4278;
+  color: #ffffff
+}
+
+.btn-instagram:hover,
+.btn-instagram:focus {
+  background: #850c70;
+  color: #ffffff
+}
