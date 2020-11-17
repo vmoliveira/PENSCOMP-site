@@ -16,6 +16,13 @@
   <link href="css/pcomp.css" rel="stylesheet">
   <link href="css/contato.css" rel="stylesheet">
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script type="text/javascript">
+    var onloadCallback = function() {
+      grecaptcha.render('html_element', {
+        'sitekey' : '6LeYB-QZAAAAALwanVVU5XdBETHTQ-knel7E3VQc'
+      });
+    };
+  </script>
 
 </head>
 
@@ -125,6 +132,8 @@
               </form>
               <div class="g-recaptcha" data-sitekey="6LeYB-QZAAAAALwanVVU5XdBETHTQ-knel7E3VQc"></div>
               <br/>
+              <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer></script>
               <div class="text-center text-md-left">
                   <a class="btn btn-danger" onclick="document.getElementById('contact-form').submit();">Enviar</a>
               </div>
