@@ -14,6 +14,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/pcomp.css" rel="stylesheet">
+  <link href="css/turmas.css" rel="stylesheet">
 
 </head>
 
@@ -43,72 +44,48 @@
   </nav>
 
   <!-- Page Content -->
-  <div class="container">
-
-    <!-- Heading Row -->
-    <div class="row align-items-center my-4">
-      <div class="col-lg-7">
-        <img class="img-fluid rounded mb-4 mb-lg-0" src="https://i.imgur.com/eoZhJfJ.png" alt="">
-      </div>
-      <!-- /.col-lg-8 -->
-      <div class="col-lg-5">
-        <h1><br></h1>
-        <p>O Pensando Computacionalmente é um curso disponível aos acadêmicos de todos os cursos da Universidade Federal do Rio Grande - FURG, cuja finalidade é desenvolver o raciocínio lógico e computacional para a resolução de problemas.</p>
-        <a type="button" href="contato.html" class="btn btn-danger" target="_blank">Entrar em Contato</a>
-
-      </div>
-      <!-- /.col-md-4 -->
-    </div>
-    <!-- /.row -->
-
-    <!-- Call to Action Well -->
-    <!--div class="card text-white bg-secondary my-5 py-4 text-center">
-      <div class="card-body">
-        <p class="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p>
-      </div>
-    </div-->
-
-    <!-- Content Row -->
-    <div class="row">
-      <div class="col-md-4 mb-5">
-        <iframe class="w-100" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpenscompfurg&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="340" height="410" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-      </div>
-      <!-- /.col-md-4 -->
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title">Turmas</h2>
-            <p class="card-text">Muitos alunos já passaram pelo Pensando Computacionalmente. Veja as fotos!</p>
-            <div id='photoalign'>
-              <img src="/resources/IMG-20191003-WA0031.jpg" alt="Foto de uma das turmas" class="img-thumbnail">
-            </div>
-          </div>
-          <div class="card-footer">
-            <a href="turmas.html" class="btn btn-danger btn-sm" target="_blank">Ver tudo</a>
-          </div>
+  <div class="container-fluid">
+    
+    <div class="card my-5 mx-auto">
+      
+      <div class="row my-4">
+        <div class="col">
+          <h1 class="card-title">&nbsp;Turmas</h1>
         </div>
       </div>
-      <!-- /.col-md-4 -->
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title">Pensamento Computacional</h2>
-            <p class="card-text">Principal assunto do curso, o pensamento 
-              computacional vem se consolidando como disciplina fundamental 
-              na formação de todos os indivíduos, independentemente da área
-              de atuação.</p>
-          </div>
-          <div class="card-footer">
-            <a href="https://pt.wikipedia.org/wiki/Pensamento_computacional" target="_blank" class="btn btn-danger btn-sm">Saiba mais</a>
-          </div>
+
+      <div class="row">
+        <div class="col">
+          <script src='js/selector.js'></script>
+          &nbsp;&nbsp;&nbsp;<select id='selecao' onchange="mostrar_esconder(this)">
+          <option value="escolha">Escolha o ano</option>
+          <option value="escolha_prim">2019</option>
+          <option value="escolha_seg">2020</option>
+        </select><hr>
         </div>
       </div>
-      <!-- /.col-md-4 -->
+
+      <div id="t2019">
+        <div class="row">
+          <div class="col">
+            <h2 class="card-title">&nbsp;&nbsp;2019<hr></h2>
+          </div>
+        </div>
+
+      </div>
+    
+      <div id="t2020">
+        <div class="row">
+          <div class="col">
+            <h2 class="card-title">&nbsp;&nbsp;2020<hr></h2>
+          </div>
+        </div>
+        
+      </div>
 
     </div>
-    <!-- /.row -->
-
-  </div>
+  
+    </div>
   <!-- /.container -->
   <br><br> <!--small screen compatibility-->
   <!-- Footer -->
