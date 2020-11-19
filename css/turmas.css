@@ -9,3 +9,8 @@
 #t2020{
     display: none;   
    }
+
+img:hover{
+    cursor: pointer;
+
+}
